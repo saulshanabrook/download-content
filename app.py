@@ -17,6 +17,3 @@ def main():
     )
     response.headers.add('Content-Disposition', content_disposition)
     return response
-
-if __name__ == "__main__":
-    app.run()
